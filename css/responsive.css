@@ -1,1 +1,37 @@
-/*Responsive */
+/* MEDIA QUERY  */
+/* DESKTOP */
+/* Header */
+@media screen and (min-width: 992px) {
+    .header-container{
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header-nav{
+        width: 70%;
+    }
+    .header-nav img{
+        width: 80px;
+        height: 40px;
+    }
+    .header-nav i {
+        display: none;
+    }
+    .header-nav .header-list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: white;
+        
+    }
+
+    .header-list li:last-child {
+        background-color: white;
+        color: black;
+        width: 90px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 5px;
+        border-radius: 50px;
+    }
+}
