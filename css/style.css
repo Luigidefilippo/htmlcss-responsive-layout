@@ -455,7 +455,7 @@ content img {
 
 .button-linkedin {
     background-color: #9792e5;
-    padding: 3px;
+    padding: 10px;
     border-radius: 20px;
 }
 
@@ -528,4 +528,21 @@ content img {
 }
 .copyright a{
     text-decoration: underline;
+}
+.bc-secondfooter{
+    background-color: #333333;
+}
+.second{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.second-text{
+    padding: 20px 0;
+    color: white;
+    font-size: 1rem;
+}
+.second-a{
+    text-decoration: underline;
+    color: #8884ca;
 }
