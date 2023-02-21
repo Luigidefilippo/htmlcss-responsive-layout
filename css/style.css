@@ -481,3 +481,51 @@ content img {
         font-size: 1.5rem;
     }
 }
+/* FOOTER */
+.get-started{
+    text-align: center;
+    padding: 2rem 0;
+}
+.text-footer{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.start{
+    color: lightgrey;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+.text-footer h3{
+    color: white;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+.free{
+    color: #fdc15f;
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+.beta{
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.button{
+    padding: 20px 0;
+}
+.button-start{
+    font-size: 1.5rem;
+    color: #9792e5;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+.copyright{
+    color: white;
+    margin: 20px;
+}
+.copyright a{
+    text-decoration: underline;
+}
