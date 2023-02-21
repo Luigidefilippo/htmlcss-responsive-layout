@@ -41,3 +41,443 @@ header{
 .header-nav ul{
     display: none;
 }
+/* MEDIA QUERY HEADER */
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    .header-container {
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header-nav {
+        width: 70%;
+    }
+    .header-nav img {
+        width: 80px;
+        height: 40px;
+    }
+
+    .header-nav i {
+        display: none;
+    }
+
+    .header-nav .header-list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: white;
+        
+    }
+
+    .header-list li:last-child {
+        background-color: white;
+        color: black;
+        width: 90px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 5px;
+        border-radius: 50px;
+    }
+}
+
+/* MAIN SECTON */
+
+.card-container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.row {
+    margin: 2rem;
+}
+
+.col {
+    margin: 1rem 0;
+    padding: 20px 10px; 
+    border-radius: 20px;
+    background-color: #b5ddff;
+}
+
+.small {
+    text-align: center;
+}
+
+.awesome {
+    font-size: 2.8rem;
+    flex-direction: column;
+    color: #0084fd;
+}
+
+.small span {
+    font-size: 1.6rem;
+    padding: 20px 0;
+}
+
+.small p {
+    font-size: 1.1rem;
+    color: grey;
+}
+
+.card-content h2 {
+    color: #0084fd;
+}
+
+.card-content p{
+    margin: 20px 0;
+    color: gray;
+}
+
+.phone {
+    align-self: flex-end;
+}
+
+.app-store {
+    background-color: #0084fd;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+/* MEDIA QUERY CARD SECTION */
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .row {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col {
+        width: calc(100% / 3);
+    }
+
+    .large {
+        width: 65%;
+    }
+    .small {
+        width: 30%;
+    }
+
+    .large img {
+        max-width: 280px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .row {
+        margin: 0 auto;
+        padding: 1 rem 1 rem;
+    }
+
+    .row .large {
+        display: flex;
+    }
+
+}
+
+/* STRATEGIC SECTION */
+
+.bc {
+    background-color: #9792e5;
+}
+.strategic-container {
+    padding: 30px 0;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.strategic {
+    width: 90%;
+    margin: 0 auto;
+}
+
+content img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+.text h2 {
+    margin: 2.5rem 0;
+    text-align: center;
+}
+
+.text p {
+    line-height: 2;
+}
+
+.developement {
+    width: 90%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 1rem;
+    border-radius: 40px;
+}
+
+.developement h2 {
+    text-align: center;
+}
+
+.developement p {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.developement .arrow {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #8884ca;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MEDIAQUERY STRATEGIC SECTION */
+@media screen and (min-width: 992px) {
+    .content {
+        display: flex;
+    }
+
+    .content .strategic {
+        width: 60%;
+    }
+}
+
+
+/* TESTIMONAILS SECTION */
+.testimonials-content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials-title p {
+    padding: 20px 0;
+}
+
+.testimonials-col {
+    background-color: #9792e5;
+    margin: 30px 0;
+    padding: 1rem;
+    border-radius: 20px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph {
+    flex-direction: column;
+}
+
+.testimonials-col img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph p{
+    padding: 20px 0;
+    flex-direction: row;
+}
+
+
+/* MEDIAQUERY TESTIMONIALS SECTION */
+@media screen and (min-width: 768px) {
+    .testimonials-content {
+        max-width: 1200px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .testimonials-col {
+        flex-direction: row;
+    }
+
+    .testimonials-col img {
+        margin: 0 20px;
+    } 
+
+    .paragraph {
+        align-items: flex-start;
+    }
+}
+
+/* BENEFITS SECTION */
+
+.benefits {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.benefit-tilte {
+    color: white;
+}
+.column {
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.benefit-title {
+    text-align: center;
+    color: white;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+}
+
+.number {
+    color: #9792e5;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.subtitle {
+    color: #9792e5;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.specifics {
+    color: grey;
+    padding: 40px 0;
+}
+
+.more {
+    background-color: #9792e5;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+/* MEDIAQUERY BENEFITS */
+@media screen and (min-width: 768px) {
+    .benefit-title {
+        font-size: 2.4rem;
+    }
+    
+    .column {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .column .card {
+        width: calc(100% / 2 - 20px);
+        margin: 5px 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .column .card {
+        width: calc(100% / 3 - 20px);
+    }
+}
+
+
+/* ABOUT US SECTION */
+
+.aboutus-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.aboutus-content h2 {
+    font-size: 2.6rem;
+    padding: 2rem 0;
+    color: #9792e5;
+}
+
+.aboutus-content p {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+.linkedin {
+    position: relative;
+    padding-top: 2rem;
+}
+
+.linkedin img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.linkedin .fa-quote-right {
+    position: absolute;
+    left: 150px;
+    font-size: 3rem;
+    color: #9792e5;
+}
+
+.linkedin h2 {
+    font-size: 2rem;
+    color: #9792e5;
+}
+
+.button-linkedin {
+    background-color: #9792e5;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.button-linkedin i {
+    color: white;
+}
+
+.button-linkedin span {
+    font-size: 0.8rem;
+    color: white;
+}
+
+/* MEDIAQUERY ABOUT US SECTION */
+
+@media screen and (min-width: 768px) {
+    .aboutus-content {
+        display: flex;
+    }
+    .linkedin {
+        margin: 0 1rem;
+    }
+    .linkedin h2 {
+        font-size: 1.5rem;
+    }
+}
